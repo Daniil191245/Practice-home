@@ -1,0 +1,164 @@
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: 'Bilbo Swash Caps', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+:root{
+    --header-text:#FED136 ;
+    --main-section-name: #222222;
+    --p-inform-text: #777777;
+    --section-two-name: #FFFFFF;
+    --text-form: #BBBBBB;
+
+}
+/* Початок стилювання  header */
+.header-logo{
+width: 153px;
+height: 53px;
+font-family: 'Bilbo Swash Caps';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 41px;
+text-align: center;
+letter-spacing: 1.3px;
+color: var(--header-text);
+}
+.header-navigation{
+width: 75px;
+height: 41px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 41px;
+/* identical to box height, or 293% */
+/* align-items: center;
+text-align: center; */
+text-transform: uppercase;
+color: #FED136;
+}
+/* Початок стилювання  main */
+.hero-name{
+width: 223px;
+height: 75px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 75px;
+/* identical to box height, or 188% */
+letter-spacing: -1px;
+text-transform: uppercase;
+color: var(--main-section-name);
+margin: 0 auto;
+}
+.text-information{
+    display: flex;
+    gap: 50px;
+    margin-left: 220px;
+}
+.hero-subtitle-title{
+width: 174px;
+/* height: 75px; */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 75px;
+letter-spacing: -0.45px;
+color: var(--main-section-name);
+margin-top: 160px;
+}
+li>p{
+width: 304px;
+height: 56px;
+font-family: 'RobotoSlab';
+font-size: 14px;
+line-height: 16px;
+letter-spacing: -0.35px;
+color: var(--p-inform-text);
+margin-bottom: 120px;
+}
+/* Йду стилювати другу секцію */
+.hero-contact-information{
+    height: 679px;
+    background-color: var(--main-section-name);
+}
+[class="hero-contact-information"]>h2{
+width: 288px;
+/* height: 49px; */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 49px;
+letter-spacing: -1px;
+text-transform: uppercase;
+color: var(--section-two-name);
+margin: 0 auto;
+}
+.form-information{
+width: 455px;
+height: 50px;
+background: var(--section-two-name);
+border: 1px solid #CCCCCC;
+border-radius: 2px;
+}
+form>[type="text"]{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: -0.35px;
+text-transform: uppercase;
+padding-left: 21px;
+color: var(--text-form);
+}
+textarea{
+width: 458px;
+height: 212px;
+background: var(--section-two-name);
+border: 1px solid #CCCCCC;
+border-radius: 2px;
+}
+[placeholder="Your message *"]{
+width: 150px;
+height: 17px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: -0.35px;
+text-transform: uppercase;
+color: var(--text-form);
+padding-top: 14px;
+padding-left: 22px;
+}
+/* Стилювання кнопки  */
+.button{
+width: 242px;
+height: 68px;
+background: var(--header-text);
+border: none;
+border-radius: 3px;
+}
+.button span{
+width: 176px;
+height: 22px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: var(--section-two-name);
+}
