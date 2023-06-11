@@ -8,16 +8,21 @@ body{
     font-family: 'Bilbo Swash Caps', cursive;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto Slab', serif;
+margin-top: 35px;
 }
 :root{
-    --header-text:#FED136 ;
+    --header-text: #FED136;
     --main-section-name: #222222;
     --p-inform-text: #777777;
     --section-two-name: #FFFFFF;
     --text-form: #BBBBBB;
-
 }
 /* Початок стилювання  header */
+
+header{
+    display: flex;
+  align-items: center;
+}
 .header-logo{
 width: 153px;
 height: 53px;
@@ -28,7 +33,14 @@ font-size: 36px;
 line-height: 41px;
 text-align: center;
 letter-spacing: 1.3px;
+margin-left: 237px;
 color: var(--header-text);
+}
+.header-nav-list{
+    margin-left: 285px;
+    display: flex;
+    gap: 30px;
+    
 }
 .header-navigation{
 width: 75px;
@@ -38,13 +50,10 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 41px;
-/* identical to box height, or 293% */
-/* align-items: center;
-text-align: center; */
 text-transform: uppercase;
-color: #FED136;
+color: var(--header-text);
 }
-/* Початок стилювання  main */
+/* Початок стилювання  main (перша секція )*/
 .hero-name{
 width: 223px;
 height: 75px;
@@ -53,16 +62,17 @@ font-style: normal;
 font-weight: 700;
 font-size: 40px;
 line-height: 75px;
-/* identical to box height, or 188% */
 letter-spacing: -1px;
 text-transform: uppercase;
 color: var(--main-section-name);
 margin: 0 auto;
+margin-top: 92px;
 }
 .text-information{
     display: flex;
     gap: 50px;
-    margin-left: 220px;
+    margin-left: 200px;
+    margin-bottom: 120px;
 }
 .hero-subtitle-title{
 width: 174px;
@@ -74,7 +84,6 @@ font-size: 18px;
 line-height: 75px;
 letter-spacing: -0.45px;
 color: var(--main-section-name);
-margin-top: 160px;
 }
 li>p{
 width: 304px;
@@ -84,7 +93,8 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: -0.35px;
 color: var(--p-inform-text);
-margin-bottom: 120px;
+/* margin-bottom: 120px; */
+
 }
 /* Йду стилювати другу секцію */
 .hero-contact-information{
