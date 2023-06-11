@@ -8,7 +8,6 @@ body{
     font-family: 'Bilbo Swash Caps', cursive;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto Slab', serif;
-margin-top: 35px;
 }
 :root{
     --header-text: #FED136;
@@ -18,7 +17,6 @@ margin-top: 35px;
     --text-form: #BBBBBB;
 }
 /* Початок стилювання  header */
-
 header{
     display: flex;
   align-items: center;
@@ -73,16 +71,17 @@ margin-top: 92px;
     gap: 50px;
     margin-left: 200px;
     margin-bottom: 120px;
+    margin-top: 160px;
 }
 .hero-subtitle-title{
 width: 174px;
-/* height: 75px; */
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
-line-height: 75px;
+line-height: 15px;
 letter-spacing: -0.45px;
+margin-left: 85px;
 color: var(--main-section-name);
 }
 li>p{
@@ -93,7 +92,6 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: -0.35px;
 color: var(--p-inform-text);
-/* margin-bottom: 120px; */
 
 }
 /* Йду стилювати другу секцію */
@@ -102,17 +100,28 @@ color: var(--p-inform-text);
     background-color: var(--main-section-name);
 }
 [class="hero-contact-information"]>h2{
-width: 288px;
-/* height: 49px; */
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 49px;
-letter-spacing: -1px;
-text-transform: uppercase;
-color: var(--section-two-name);
-margin: 0 auto;
+    width: 288px;
+    height: 49px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: var(--section-two-name);
+    margin: 0 auto;
+    padding-top: 92px;
+}
+
+.own-information{
+    display: flex;
+    gap: 27px;
+}
+.form{
+    display: block;
+    margin-left: 232px;
+    margin-top: 116px;
 }
 .form-information{
 width: 455px;
@@ -120,6 +129,8 @@ height: 50px;
 background: var(--section-two-name);
 border: 1px solid #CCCCCC;
 border-radius: 2px;
+display: block;
+  margin-bottom: 28px;
 }
 form>[type="text"]{
     font-family: 'Montserrat';
@@ -130,6 +141,7 @@ line-height: 17px;
 letter-spacing: -0.35px;
 text-transform: uppercase;
 padding-left: 21px;
+
 color: var(--text-form);
 }
 textarea{
@@ -138,6 +150,7 @@ height: 212px;
 background: var(--section-two-name);
 border: 1px solid #CCCCCC;
 border-radius: 2px;
+margin-top: 116px;
 }
 [placeholder="Your message *"]{
 width: 150px;
@@ -160,6 +173,8 @@ height: 68px;
 background: var(--header-text);
 border: none;
 border-radius: 3px;
+margin-left: 582px;
+margin-top: 27px;
 }
 .button span{
 width: 176px;
