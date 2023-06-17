@@ -146,15 +146,17 @@ color: var(--text-form);
 }
 textarea{
 width: 458px;
-height: 212px;
+height: 200px;
 background: var(--section-two-name);
 border: 1px solid #CCCCCC;
 border-radius: 2px;
 margin-top: 116px;
+resize: none;
 }
 [placeholder="Your message *"]{
-width: 150px;
-height: 17px;
+    /* Момент */
+/* width: 150px;
+height: 17px; */
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
